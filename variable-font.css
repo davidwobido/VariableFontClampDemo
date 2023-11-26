@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Roboto Flex";
+  /* src: url("/public/fonts/RobotoFlex.ttf") format("truetype-variations"); */
+  src: url("/public/fonts/RobotoFlex.woff2") format("woff2 supports variations"),
+    url("/public/fonts/RobotoFlex.woff2") format("woff2-variations");
+}
+
+:root {
+  font-family: "Roboto Flex";
+}
+
+/* h1 {
+  font-weight: 100;
+}
+
+h3 {
+  font-weight: 1000;
+  transition: font-weight;
+  animation: 2s ease-in-out scale alternate infinite;
+}
+
+@keyframes scale {
+  0% {
+    font-weight: 100;
+  }
+  100% {
+    font-weight: 900;
+  }
+}
+
+h4 {
+  font-variation-settings: "wdth" 25, "slnt" 0, "YTLC" 514;
+  transition: font-variation-settings 0.3s ease;
+}
+
+h4:hover {
+  font-variation-settings: "wdth" 151, "slnt" -9, "YTLC" 570;
+  transition: font-variation-settings 0.3s ease;
+} */

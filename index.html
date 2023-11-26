@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="clamp.css" />
+    <link rel="stylesheet" href="variable-font.css" />
+  </head>
+  <!-- <script>
+    function updateFontSize() {
+      const h1Element = document.getElementById("title");
+      const computedFontSize = window.getComputedStyle(h1Element).fontSize;
+      h1Element.textContent = `Frontend Circle Demo ${computedFontSize}`;
+
+      const h2Element = document.getElementById("subtitle");
+      const computedFontSizeH2 = window.getComputedStyle(h2Element).fontSize;
+      h2Element.textContent = `Die wunderbare Heiterkeit ${computedFontSizeH2}`;
+
+      const pElement = document.getElementById("paragraph");
+      const computedFontSizeP = window.getComputedStyle(pElement).fontSize;
+      const computedFontSize4vw = window
+        .getComputedStyle(document.documentElement)
+        .getPropertyValue("font-size");
+
+      const viewportWidth = window.innerWidth;
+      const prefValueText = document.getElementById("preferred");
+      const prefValue = 3;
+      const prefValueinPx = (viewportWidth * prefValue) / 100;
+      prefValueText.textContent = `Preferred Value: ${prefValue}vw / ${prefValueinPx} px`;
+
+      pElement.textContent = `Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich
+          den süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße. Ich bin
+          allein und freue mich meines Lebens in dieser Gegend, die für solche
+          Seelen geschaffen ist wie die meine. Ich bin so glücklich, mein
+          Bester, so ganz in dem Gefühle von ${computedFontSizeP}.
+          `;
+    }
+    window.onload = updateFontSize;
+    window.onresize = updateFontSize;
+  </script> -->
+  <body>
+    <!-- <span id="preferred">Pref Value</span> -->
+    <div class="container">
+      <h1 id="title">Frontend Circle Demo</h1>
+      <h2 id="subtitle">Die wunderbare Heiterkeit</h2>
+      <p id="paragraph">
+        Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den
+        süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße. Ich bin allein
+        und freue mich meines Lebens in dieser Gegend, die für solche Seelen
+        geschaffen ist wie die meine. Ich bin so glücklich, mein Bester, so ganz
+        in dem Gefühle von
+      </p>
+      <h3>Animating font</h3>
+      <h4>Hover font</h4>
+    </div>
+  </body>
+</html>
